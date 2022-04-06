@@ -10,7 +10,7 @@ use App\Traits\APIResponse;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
-class TagController extends Controller
+class TagController extends ApiController
 {
     use APIResponse;
 
