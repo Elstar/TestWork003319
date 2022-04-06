@@ -11,10 +11,10 @@
 
 - API_TOKEN
 
-После этого нужно загрузить/обновить все зависимости проекта командой composer install
+После этого нужно загрузить/обновить все зависимости проекта командой ***composer install***
 
-Далее выполнить миграцию php artisan migrate
+Далее выполнить миграцию ***php artisan migrate***
 
-Чтобы заполнить БД тестовыми данными можно запустить seeder: php artisan db:seed --class=ArticleTagSeeder
+Чтобы заполнить БД тестовыми данными можно запустить seeder: ***php artisan db:seed --class=ArticleTagSeeder***
 
 Для теста Api ссылка на [https://www.getpostman.com/collections/efc6b0189a09bc30a379]Postman
